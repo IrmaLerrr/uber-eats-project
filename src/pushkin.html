@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      .jumbotron {
+        background-image: url("img/puskin.png ");
+        padding: 50px;
+        background-size: cover;
+      }
+      .bg-black {
+        background-color: black;
+      }
+      .bg-white {
+        background-color: white;
+      }
+      .tx-white {
+        color: white;
+      }
+      .tx-black {
+        color: black;
+      }
+      .p50 {
+        padding: 40px 50px;
+      }
+      .p10 {
+        padding: 10px;
+      }
+      .p30 {
+        padding: 30px 30px 30px 0;
+      }
+      .m50 {
+        margin: 50px;
+      }
+      .m10 {
+        margin: 4px;
+      }
+      .ptb10 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .prl20{
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+      .pr20{
+        padding-right: 20px;
+      }
+      .box {
+        display: inline-block;
+      }
+      .line {
+        display: block;
+      }
+      .space_between {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+      }.border-radius{
+        border-radius: 20px;}
+        .border {
+          border: 1px solid #cacaca;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container col-xs-12">
+        <div class="box">
+          <img src="img/logo.svg" alt="UBER EATS logo" />
+        </div>
+        <div class="box">
+          <button>
+            <div><b>Войти</b></div>
+          </button>
+          <img src="img/basket.png" alt="Basket logo" />
+        </div>
+      </div>
+    </header>
+    <div id="start">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="box bg-white p50" style="box-shadow: 0 4px 8px 0 #e0e0e0;">
+            <div class="line">
+              <div class="box font-36 ptb10 prl20">Tрактир «Пушкин»<br/><br/></div>
+            </div>
+            
+            <div class="space_between ptb10 prl20">
+              <div class="box font-14 ptb10">₽₽₽ • Европейская</div>
+              <div class="box font-13 bg-black tx-white border-radius ptb10 prl20">40 - 50 мин</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="search tx-black">
+      <div class="container">
+        <div class="box p30 font-16">Закуски</div>
+        
+        <div class="box p30 font-16">Салаты</div>
+        
+        <div class="box p30 font-16">Супы</div>
+        
+        <div class="box p30 font-16">Горячие блюда</div>
+        
+        <div class="box p30 font-16">Десерты</div>
+      </div>
+      
+    </div>
+    <div class="container">
+      <div class="box p30 font-22">Закуски</div>
+      <div class="cards p20">
+        <div class="col-xs-12 col-md-12 col-lg-6"> 
+        <div class="card border m10 p0 justify-content-space-between">
+          <div class="column justify-content-space-between">
+            <div class="p10">Сельдь на бородинском хлебе<br/><br/>
+              С яйцом и огурцом</div>
+            <div class="p10">240 ₽</div></div>
+          <div><img src="img/photop0.png" alt="Big_logo" class="p0" /></div>
+        </div></div>
+        <div class="col-xs-12 col-md-12 col-lg-6"> 
+        <div class="card border m10 p0 justify-content-space-between">
+          <div class="column justify-content-space-between">
+            <div class="p10">Соленья ассорти</div>
+            <div class="p10">320 ₽</div></div>
+          <div><img src="img/photop1.png" alt="Big_logo" class="p0" /></div>
+        </div></div>
+        <div class="col-xs-12 col-md-12 col-lg-6"> 
+        <div class="card border m10 p0 justify-content-space-between">
+          <div class="column justify-content-space-between">
+            <div class="p10">Грибы маринованные</div>
+            <div class="p10">300 ₽</div></div>
+          <div><img src="img/photop2.png" alt="Big_logo" class="p0" /></div>
+        </div></div>
+        <div class="col-xs-12 col-md-12 col-lg-6"> 
+        <div class="card border m10 p0 justify-content-space-between">
+          <div class="column justify-content-space-between">
+            <div class="p10">Сало домашнее с горчицей</div>
+            <div class="p10">320 ₽</div></div>
+          <div><img src="img/photop3.png" alt="Big_logo" class="p0" /></div>
+        </div></div>
+        <div class="col-xs-12 col-md-12 col-lg-6"> 
+        <div class="card border m10 p0 justify-content-space-between">
+          <div class="column justify-content-space-between">
+            <div class="p10">Малосольная семга</div>
+            <div class="p10">390 ₽</div></div>
+          <div><img src="img/photop4.png" alt="Big_logo" class="p0" /></div>
+        </div></div>
+        <div class="col-xs-12 col-md-12 col-lg-6"> 
+        <div class="card border m10 p0 justify-content-space-between">
+          <div class="column justify-content-space-between">
+            <div class="p10">Язык говяжий с хреном</div>
+            <div class="p10">350 ₽</div></div>
+          <div><img src="img/photop5.png" alt="Big_logo" class="p0" /></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row col-xs-12">
+          <div class="row-small">
+            <img src="img/white-logo.svg" alt="Big_logo" />
+          </div>
+        </div>
+        <div class="row col-xs-12">
+          <div class="col col-xs-12 col-md-4 col-lg-4">
+            <div class="row-small">
+              <img
+                src="img/world.svg"
+                alt="Big_logo"
+                style="background-color: #444; padding: 8px"
+              />
+              <select size="1">
+                <option name="list" value="rus">Русский</option>
+                <option name="list" value="eng">Английский</option>
+              </select>
+            </div>
+
+            <div class="row-small">
+              <div style="color: green">#</div>
+              <div>UberEats</div>
+            </div>
+            <div class="row-small">
+              <a class="link" href="#"
+                ><img src="img/facebook.svg" alt="Big_logo"
+              /></a>
+              <a class="link" href="#"
+                ><img src="img/twitter.svg" alt="Big_logo"
+              /></a>
+              <a class="link" href="#"
+                ><img src="img/instagram.svg" alt="Big_logo"
+              /></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="row-small link">
+              <a class="link" href="#">Об UberEats</a>
+            </div>
+            <div class="row-small link">
+              <a class="link" href="#">Станьте партнёром по доставке</a>
+            </div>
+            <div class="row-small link">
+              <a class="link" href="#">Станьте парнёром-рестораном</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="row-small link">
+              <a class="link" href="#">Все города</a>
+            </div>
+            <div class="row-small link"><a class="link" href="#">Цены</a></div>
+            <div class="row-small link">
+              <a class="link" href="#">Помощь</a>
+            </div>
+            <div class="row-small link"><a class="link" href="#">FAQs</a></div>
+          </div>
+        </div>
+        <div class="row col-xs-12 justify-content-center">
+          <div>
+            <a class="link" href="#"
+              ><img
+                src="img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
+                alt="Big_logo"
+            /></a>
+          </div>
+          <div>
+            <a class="link" href="#"
+              ><img
+                src="img/en_badge_web_generic-cf6dad406f.png"
+                alt="Big_logo"
+            /></a>
+          </div>
+        </div>
+
+        <div class="row col-xs-12">
+          <div class="row-small link col-xs-12 col-md-4 col-lg-4">
+            <a class="link" href="#">© 2017 Uber Technologies Inc.</a>
+          </div>
+          <div class="row-small link col-xs-12 col-md-4 col-lg-4">
+            <a class="link" href="#">Обработка персональных данных</a>
+          </div>
+          <div class="row-small link col-xs-12 col-md-4 col-lg-4">
+            <a class="link" href="#">Пользовательское соглашение</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="up-btn">
+      <a class="link" href="#start">
+        <img src="img/btn-up.png" alt="Big_logo" class=""
+      /></a>
+    </div>
+  </body>
+</html>
